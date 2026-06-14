@@ -1,5 +1,7 @@
+# Created by Rawad 
+
 def add(a, b):
-    return a + b   #Fixed the addition function to return the correct result
+    return a + b   # Fixed
 
 
 def subtract(a, b):
