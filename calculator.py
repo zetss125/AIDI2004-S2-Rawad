@@ -1,7 +1,7 @@
-# Created by Rawad 
+# Created by Rawad
 
 def add(a, b):
-    return a + b   # Fixed
+    return a + b
 
 
 def subtract(a, b):
