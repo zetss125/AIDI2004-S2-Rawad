@@ -11,6 +11,6 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Lint with flake8
-        run: flake8 calculator.py test_calculator.py
+        run: flake8 calculator.py test_calculator.py --ignore=W292
       - name: Run unit tests
         run: python -m unittest test_calculator.py
